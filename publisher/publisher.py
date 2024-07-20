@@ -2,7 +2,7 @@ import time
 import random
 import paho.mqtt.client as mqtt
 
-BROKER = 'mqtt.eclipse.org'  # Replace with your MQTT broker address
+BROKER = 'mqtt.eclipse.org' 
 TOPIC = 'hotel/temperature'
 CLIENT_ID = 'temperature_publisher'
 
